@@ -1,3 +1,27 @@
-#searchbar {
-    margin: 0 auto;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+
+}
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+#logo {
+    text-align:center;
+    margin: 30vH 0 3rem 0;
+}
+
+#searchbar > form {
+    text-align:center;
+
 }
