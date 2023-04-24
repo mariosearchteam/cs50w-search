@@ -25,3 +25,66 @@ nav a {
     text-align:center;
 
 }
+
+#searchbar input[type=text] {
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    padding: 0 1rem;
+}
+
+#searchbar input[type=submit] {
+    background: #f8f9fa;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border-color: #f8f9fa;
+    margin: 3rem 0;
+    box-shadow:none;
+}
+
+#searchbar input[type=submit]:hover {
+    box-shadow: 1px 1px 1px 1px #f8f9fa;
+    cursor: pointer;
+
+}
+
+#advancedbar {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex-basis: 45%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#advancedbar input[type="text"] {
+    flex-basis: 45%;
+}
+
+#advanced_btn {
+    display: block;
+    margin: 20px 0;
+    background-color: #4d90fe;
+    color: #fff;
+    border: none;
+    padding: 0.3rem 0.5rem;
+    float: right;
+}
